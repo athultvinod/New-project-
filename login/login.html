@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./login.css">
+    <script defer src="./login.js"></script>
+</head>
+<body>
+	<nav aria-label="breadcrumb">
+		<ul class="breadcrumb">
+		  <li class="breadcrumb-item"><a href="../index.html"> Back to Home</a></li>
+		  
+		</ul>
+	  </nav>
+      <form  id="create-account-form" action="../login/login.html" method="GET">
+        
+        <div class="title">
+            <h2>Login</h2>
+        </div>
+        
+        <!-- EMAIL -->
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+        <!-- PASSWORD -->
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" name="password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+       
+
+        <button type="submit" class="btn">Login</button>
+		<br>
+		<a href="../signup/sign.html">Signup</a>
+    </form>
+
+	
+
+
+    <!-- JAVASCRIPT -->
+
+</body>
+</html>
